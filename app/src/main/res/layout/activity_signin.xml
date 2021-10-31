@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".SigninActivity">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/background_input">
+
+            <ImageView
+                android:id="@+id/kullaniciimage"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
+            <EditText
+
+                android:id="@+id/kullaniciview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="6"
+                android:hint="@string/kullan_c_ad"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+
+            android:background="@drawable/background_input">
+
+            <ImageView
+                android:id="@+id/sifreimage"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
+            <EditText
+
+                android:id="@+id/sifteview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="6"
+
+                android:hint="Şifre"
+
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="130dp"
+            android:text="Şifremi Unuttum"
+            android:textColor="#FF7F00" />
+
+        <Button
+            android:id="@+id/girisbuton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="170dp"
+            android:background="#193153"
+            android:text="Giriş"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/createAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18dp"
+            android:onClick="createAccount"
+            android:text="Create A New Account"
+            android:textColor="#FFfFff" />
+    </LinearLayout>
+
+
+</LinearLayout>

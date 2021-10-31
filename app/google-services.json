@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828344985954",
+    "project_id": "accounting-67c0f",
+    "storage_bucket": "accounting-67c0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828344985954:android:d718109c384c73bc3c643b",
+        "android_client_info": {
+          "package_name": "com.example.stoktakip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828344985954-g3cjh4c8qtu4vt6jaq8dlffr8ke6e9so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoN0ZEVgPniWqu78gGMaGpemKMLFsZCig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828344985954-g3cjh4c8qtu4vt6jaq8dlffr8ke6e9so.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
