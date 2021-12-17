@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#113A3B"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MenuActivity">
 
 
     <LinearLayout
@@ -59,12 +59,15 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/geç"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:src="@drawable/go" />
+            android:background="@drawable/go"
+          android:clickable="true"
+             />
 
 
     </LinearLayout>

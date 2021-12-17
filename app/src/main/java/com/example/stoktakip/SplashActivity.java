@@ -22,21 +22,24 @@ public class SplashActivity extends AppCompatActivity {
         Thread timerThread = new Thread() {
             public void run() {
                 try {
-                    sleep(2000);
+                    sleep(4000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
                     if (firebaseUser != null) {
-                        Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                        Intent intent = new Intent(SplashActivity.this, MenuActivity.class);
                         startActivity(intent);
+
                     } else {
                         Intent intent = new Intent(SplashActivity.this, SigninActivity.class);
                         startActivity(intent);
+
                     }
                 }
             }
         };
         timerThread.start();
+
 
     }
 
