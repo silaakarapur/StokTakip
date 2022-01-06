@@ -6,12 +6,14 @@
         <entry key="..\:/StokTakip/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2189873417721519" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/background_input.xml" value="0.2703125" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/button.xml" value="0.26666666666666666" />
+        <entry key="..\:/StokTakip/app/src/main/res/drawable/compenent6.xml" value="0.22592592592592592" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/cursor.xml" value="0.13333333333333333" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2189873417721519" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2189873417721519" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2189873417721519" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2189873417721519" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/rounded_corner.xml" value="0.16842105263157894" />
+        <entry key="..\:/StokTakip/app/src/main/res/drawable/stokfigma.xml" value="0.1" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_menu.xml" value="0.19675925925925927" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_menu2.xml" value="0.18425925925925926" />
@@ -19,7 +21,7 @@
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_signin.xml" value="0.2" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_singup.xml" value="0.25416666666666665" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_splash.xml" value="0.13020833333333334" />
-        <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stock.xml" value="0.11898148148148148" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stock.xml" value="0.152" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stokaktivity.xml" value="0.1" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_home.xml" value="0.20854700854700856" />

@@ -18,7 +18,8 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/back" />
+            android:src="@drawable/back"
+            android:onClick="geri"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -60,14 +61,15 @@
             android:textStyle="bold" />
 
         <ImageButton
-            android:id="@+id/geç"
+            android:id="@+id/git"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:background="@drawable/go"
-          android:clickable="true"
-             />
+            android:onClick="git"
+       />
+
 
 
     </LinearLayout>
@@ -99,6 +101,7 @@
             android:textStyle="bold" />
 
         <ImageView
+
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_gravity="center_vertical"
