@@ -50,7 +50,8 @@ public class SigninActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-setContentView(R.layout.activity_menu);
+Intent gomenu = new Intent(SigninActivity.this,MenuActivity.class);
+startActivity(gomenu);
                             Toast.makeText(SigninActivity.this, "Giriş Başarılı", Toast.LENGTH_SHORT).show();
                         }
 
