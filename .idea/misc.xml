@@ -8,6 +8,8 @@
         <entry key="..\:/StokTakip/app/src/main/res/drawable/button.xml" value="0.26666666666666666" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/compenent6.xml" value="0.22592592592592592" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/cursor.xml" value="0.13333333333333333" />
+        <entry key="..\:/StokTakip/app/src/main/res/drawable/edittextbackgroun7.xml" value="0.26614583333333336" />
+        <entry key="..\:/StokTakip/app/src/main/res/drawable/edittextbackground.xml" value="0.1" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2189873417721519" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2189873417721519" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2189873417721519" />
@@ -18,19 +20,22 @@
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_menu.xml" value="0.19675925925925927" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_menu2.xml" value="0.18425925925925926" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
-        <entry key="..\:/StokTakip/app/src/main/res/layout/activity_signin.xml" value="0.2" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/activity_signin.xml" value="0.264" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_singup.xml" value="0.25416666666666665" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_splash.xml" value="0.13020833333333334" />
-        <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stock.xml" value="0.152" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stock.xml" value="0.25" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stock2.xml" value="0.12708333333333333" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stokaktivity.xml" value="0.1" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_home.xml" value="0.20854700854700856" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_listfragment.xml" value="0.24615384615384617" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_notifications.xml" value="0.20854700854700856" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_stok.xml" value="0.1" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/list.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

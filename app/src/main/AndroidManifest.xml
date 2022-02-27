@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StokTakip" >
         <activity
-            android:name=".MenuActivity"
-            android:exported="true" />
+            android:name=".SplashActivity"
+            android:exported="false" />
         <activity
-            android:name=".StockActivity"
+            android:name=".MenuActivity"
             android:exported="true" />
         <activity
             android:name=".SignUpActivity"
@@ -22,9 +22,9 @@
             android:name=".SigninActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashActivity"
-            android:noHistory="true"
-            android:exported="true" >
+            android:name=".StockActivity"
+            android:exported="true"
+            android:noHistory="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

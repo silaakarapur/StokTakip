@@ -40,7 +40,6 @@ public class SignUpActivity extends AppCompatActivity {
         soyad = findViewById(R.id.soyad);
         mail = findViewById(R.id.mail);
         sifre = findViewById(R.id.şifre);
-
         kayit();
     }
 

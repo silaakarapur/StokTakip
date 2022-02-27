@@ -1,19 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/iphone_13_m"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/stokfigma"
->
-    <Button
-        android:id="@+id/component_6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edittextbackgroun7"
+    tools:context=".StockActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-     />
+        android:layout_marginTop="110dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/urunadi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittextbackground"
+                android:hint="ÜRÜN ADI"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="#DBD7D7"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/urunkategori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextbackground"
+                android:hint="KATEGORİ"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="#DBD7D7"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/urunbarkod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextbackground"
+                android:hint="BARKOD"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="#DBD7D7"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/urunstokkodu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextbackground"
+                android:hint="STOK KODU"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="#DBD7D7"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/urunmiktar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextbackground"
+                android:hint="STOK MİKTARI"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="#DBD7D7"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/urunfiyat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextbackground"
+                android:hint="FİYAT"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:textColorHint="#DBD7D7"
+                android:textSize="16sp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:backgroundTint="#FF7F00"
+        android:onClick="kayitekle"
+        android:text="Stok Ekle"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/sil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:backgroundTint="#FF7F00"
+        android:onClick="Sil"
+        android:text="Sil"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/liste"
+
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:backgroundTint="#FF7F00"
+        android:onClick="listele"
+        android:text="Listele"
+        android:textColor="@color/white" />
+</LinearLayout>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/addto" />
+
+
 
 </RelativeLayout>
-
-
-
