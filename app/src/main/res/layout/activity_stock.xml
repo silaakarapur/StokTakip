@@ -7,18 +7,31 @@
     android:background="@drawable/edittextbackgroun7"
     tools:context=".StockActivity">
 
+    <LinearLayout
+        android:id="@+id/grup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/addto"
+            android:foregroundGravity="center" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/layout"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="150dp"
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="260dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="70dp"
+            android:layout_marginLeft="50dp"
             android:orientation="vertical">
 
             <EditText
@@ -91,68 +104,60 @@
                 android:textColor="@color/white"
                 android:textColorHint="#DBD7D7"
                 android:textSize="16sp" />
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-    <Button
-        android:id="@+id/btnEkle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button"
-        android:backgroundTint="#FF7F00"
-        android:onClick="kayitekle"
-        android:text="Stok Ekle"
-        android:textColor="@color/white" />
-    <Button
-        android:id="@+id/sil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button"
-        android:backgroundTint="#FF7F00"
-        android:onClick="Sil"
-        android:text="Sil"
-        android:textColor="@color/white" />
-    <Button
-        android:id="@+id/liste"
 
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="@drawable/button"
-        android:backgroundTint="#FF7F00"
-        android:onClick="listele"
-        android:text="Listele"
-        android:textColor="@color/white" />
-</LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnEkle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:backgroundTint="#FF7F00"
+                    android:onClick="kayitekle"
+                    android:text="Stok Ekle"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/sil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:backgroundTint="#FF7F00"
+                    android:onClick="Sil"
+                    android:text="Sil"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/liste"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:backgroundTint="#FF7F00"
+                    android:onClick="listele"
+                    android:text="Listele"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
 
         </LinearLayout>
 
-        <ListView
-            android:id="@+id/listView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
 
     </LinearLayout>
-
-    <ImageView
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="160dp"
-        android:layout_marginBottom="55dp"
-        android:background="@drawable/addto" />
-
-
+    <!--<ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
 
 </RelativeLayout>

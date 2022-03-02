@@ -1,9 +1,14 @@
 package com.example.stoktakip;
 
 
+import static com.example.stoktakip.R.layout.activity_stock;
+
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -12,17 +17,16 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.Toast;
 
 
 import com.example.stoktakip.ui.Database.database;
-import com.example.stoktakip.ui.listfragment;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
 public class StockActivity extends AppCompatActivity {
-
+    FragmentManager fragmentManager = getSupportFragmentManager();
     private EditText Urunadi, urunkategori, urunbarkod, urunstokkodu, urunmiktari, urunfiyat;
 
     private ListView listView;
@@ -34,16 +38,16 @@ public class StockActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stock);
+        setContentView(activity_stock);
         button = findViewById(R.id.liste);
-        button.setOnClickListener(this::listele);
+
 
     }
 
     public void kayitekle(View v) {
         database db = new database(getApplicationContext());
         Urunadi = findViewById(R.id.urunadi);
-        urunkategori = (EditText) findViewById(R.id.urunkategori);
+        urunkategori = findViewById(R.id.urunkategori);
         urunbarkod = findViewById(R.id.urunbarkod);
         urunstokkodu = findViewById(R.id.urunstokkodu);
         urunmiktari = findViewById(R.id.urunmiktar);
@@ -58,27 +62,41 @@ public class StockActivity extends AppCompatActivity {
     }
 
     public void listele(View v) {
-int sayac=1;
-       /* layout = findViewById(R.id.layout);
-     getSupportFragmentManager().beginTransaction().add(R.id.layout, new listfragment()).commit();
-        layout.setVisibility(View.GONE);*/
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                database db = new database(getApplicationContext());
-                ListView listView;
-                List<String> verilistele = db.Verilistele();
-                listView = findViewById(R.id.listView);
 
-                ArrayAdapter<String> adapter = new ArrayAdapter<String>(StockActivity.this, android.R.layout.simple_list_item_1, android.R.id.text1, verilistele);
-                listView.setAdapter(adapter);
-            }
-        });
+        layout = findViewById(R.id.layout);
+        layout.setVisibility(View.GONE);
+        list list = new list();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.add(R.id.grup, list, "s");
+        fragmentTransaction.commit();
+
+        /*database db = new database(getApplicationContext());
+        ListView listView;
+        List<String> verilistele = db.Verilistele();
+        listView = findViewById(R.id.listView);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(StockActivity.this, android.R.layout.simple_list_item_1, android.R.id.text1, verilistele);
+        listView.setAdapter(adapter);*/
 
 
     }
 
     public void Sil(View view) {
-      
+
+    }
+
+    public void geri(View view) {
+
+        FragmentTransaction ft = fragmentManager.beginTransaction();
+        list list = new list();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        if(list!=null) {
+            fragmentTransaction.remove(list);
+            fragmentTransaction.commit();
+            layout = findViewById(R.id.layout);
+            layout.setVisibility(View.INVISIBLE);
+        }else{
+            Toast.makeText(this,"Fragment A bulunamadı", Toast.LENGTH_LONG).show();
+        }
     }
 }
