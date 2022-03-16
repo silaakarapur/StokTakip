@@ -11,7 +11,6 @@ import android.widget.ImageButton;
 public class MenuActivity extends AppCompatActivity {
 
     ImageButton imagebutton;
-    private Context getContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +19,6 @@ public class MenuActivity extends AppCompatActivity {
 
 
     }
-
-
-
 
     public void git(View view) {
         Intent git = new Intent(MenuActivity.this,StockActivity.class);

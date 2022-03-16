@@ -16,6 +16,7 @@
         <entry key="..\:/StokTakip/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2189873417721519" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/rounded_corner.xml" value="0.16842105263157894" />
         <entry key="..\:/StokTakip/app/src/main/res/drawable/stokfigma.xml" value="0.1" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/activity_list_show.xml" value="0.25" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_menu.xml" value="0.19675925925925927" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_menu2.xml" value="0.18425925925925926" />
@@ -23,15 +24,17 @@
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_signin.xml" value="0.264" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_singup.xml" value="0.25416666666666665" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_splash.xml" value="0.13020833333333334" />
-        <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stock.xml" value="0.2" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stock.xml" value="0.1" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stock2.xml" value="0.12708333333333333" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/activity_stokaktivity.xml" value="0.1" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_cari.xml" value="0.25" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_home.xml" value="0.20854700854700856" />
-        <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_listfragment.xml" value="0.176" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_listfragment.xml" value="0.21107266435986158" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_notifications.xml" value="0.20854700854700856" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/fragment_stok.xml" value="0.1" />
         <entry key="..\:/StokTakip/app/src/main/res/layout/list.xml" value="0.1" />
+        <entry key="..\:/StokTakip/app/src/main/res/layout/list_recycler.xml" value="0.4" />
       </map>
     </option>
   </component>

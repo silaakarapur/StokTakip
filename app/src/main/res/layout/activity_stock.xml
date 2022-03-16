@@ -5,30 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/edittextbackgroun7"
-    tools:context=".StockActivity">
+    tools:context=".StockActivity"
+    android:id="@+id/stockactivity">
+
 
     <LinearLayout
-        android:id="@+id/grup"
+
+        android:id="@+id/layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical" >
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="40dp"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/addto"
             android:foregroundGravity="center" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:orientation="vertical">
 
         <LinearLayout
+            android:layout_marginTop="80dp"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"

@@ -2,31 +2,69 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="250dp"
-    android:layout_height="500dp"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="#F39999"
+    android:background="#ffffff"
+    android:orientation="vertical"
     tools:context=".list">
 
-    <Button
-        android:id="@+id/geri"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/back"
-        android:onClick="geri"
-
-        />
 
 
-    <ListView
-        android:id="@+id/listview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+ <!--<androidx.cardview.widget.CardView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" >
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="12dp">
+
+   <TextView
+       android:id="@+id/id_text"
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="24dp"
+       android:text="1"
+       android:textSize="30sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/ürün_adi"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="72dp"
+       android:text="TextView"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.222" />
+
+   <TextView
+       android:id="@+id/ürünkodi"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="1dp"
+       android:text="TextView"
+       app:layout_constraintBottom_toBottomOf="@+id/id_text"
+       app:layout_constraintEnd_toEndOf="@+id/ürün_adi"
+       app:layout_constraintTop_toBottomOf="@+id/id_text"
+       app:layout_constraintVertical_bias="0.684" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+ </androidx.cardview.widget.CardView>-->
+
+
+ <!--<ListView
+     android:layout_width="match_parent"
+     android:id="@+id/veriler"
+     android:layout_height="match_parent">
+
+ </ListView>-->
+
 
 </LinearLayout>
