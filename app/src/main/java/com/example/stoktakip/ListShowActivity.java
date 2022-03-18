@@ -38,7 +38,7 @@ public class ListShowActivity extends AppCompatActivity {
         database db = new database(ListShowActivity.this);
         Cursor cursor = (Cursor) db.readAllData();
         if (cursor.getCount() == 0) {
-            Toast.makeText(this, "No Data ", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Veri Yok ", Toast.LENGTH_LONG).show();
 
         } else {
             while ((cursor.moveToNext())) {
